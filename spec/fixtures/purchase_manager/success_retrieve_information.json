@@ -1,0 +1,490 @@
+{
+  "state": "completed",
+  "purchase": {
+    "token": "BDCxQxsKSZ8",
+    "warnings": [],
+    "state": "completed",
+    "passenger_selection": {
+        "adult": "1"
+    },
+    "expires_at": 1689276608000,
+    "purchaser_first_name": "pedro",
+    "purchaser_last_name": "hernandez",
+    "purchaser_second_last_name": "aceves",
+    "purchaser_gender": "m",
+    "purchaser_nationality_id": 1,
+    "purchaser_nationality": "México",
+    "email": "accept@iamsa.com",
+    "phone": "3121540822",
+    "wants_insurance": false,
+    "wants_carbon_offset": null,
+    "available_payments": ["credit_card","paypal"],
+    "qualifies_for_insurance": true,
+    "passengers": [
+      {
+        "id": 11004,
+        "first_name": "Jose",
+        "last_name": "hernandez",
+        "second_last_name": "ortega",
+        "email": "accept@iamsa.com",
+        "name": "Jose hernandez ortega",
+        "gender":"m",
+        "category": "adult",
+        "bus_category": "older",
+        "nationality_id": 1,
+        "date_of_birth": "01-01-1970",
+        "wants_outgoing_insurance": false,
+        "wants_incoming_insurance": false
+      }
+    ],
+    "international": false,
+    "sp_card": null,
+    "estimated_completed_at": null,
+    "qualifies_for_months_payment": true,
+    "qualifies_for_monthly_installments": true,
+    "payment_plans": {
+      "visa_mc": {},
+      "amex": {}
+    },
+    "interests_amount": 0,
+    "monthly_selected_plan": 1,
+    "monthly_selected_plan_details": null,
+    "last_payment_id": 4358,
+    "wallet_balance_used": 0.0,
+    "open_ticket": false,
+    "on_demand": false,
+    "config": {
+      "insurance_message": "Agregar seguro a tu viaje, costo $15 MXN",
+      "insurance_amount": 15,
+      "unit_amount": true,
+      "payment_gateway_token": {}
+    },
+    "siempre_plus_km": 0,
+    "operation_number": null,
+    "return_adult_price": 935.0,
+    "max_usable_balance": 0,
+    "chosen_sp_passenger_id": null,
+    "attachables": [
+      {
+        "name": "sustituto_pagare_BDCxQxsKSZ8.pdf",
+        "url": "https://etn-sandbox.s3.amazonaws.com/promissory_note/49601055a33840.pdf"
+      }
+    ],
+    "terminals_codes": ["MEXN","GDLJ"],
+    "external_coupon_code": "",
+    "locale": "es-MX",
+    "parent_id": null,
+    "parent_token": null,
+    "is_exchange": false,
+    "payment_engine": "cybersource",
+    "redirect": false,
+    "redirected_from": "",
+    "wallet_points_used": 0.0,
+    "wallet_accrual_points": 0,
+    "is_doters_user": null,
+    "current_time": 1689315682000,
+    "phone_code": "52",
+    "phone_country": "MX",
+    "user_id": null,
+    "wants_flat_fare": null,
+    "flat_fare_available": null,
+    "wallet_minimum_points_to_be_used": 0,
+    "wallet_minimum_balance_to_be_used": 0,
+    "costapass_token": null,
+    "wallet_type": null,
+    "available_wallets": ["doters"],
+    "wallet_original_type": null,
+    "expiration_extension": {
+      "extended_at": null,
+      "available": false,
+      "minutes_to_extend": 5,
+      "seconds_before_expiration": 60
+    },
+    "amount": "474.14",
+    "taxes": "75.86",
+    "service_fee_amount": "0.0",
+    "markup": 0,
+    "insurance_amount": 0,
+    "carbon_offset_amount": 0,
+    "insurance_outgoing_unit_amount": 15,
+    "insurance_incoming_unit_amount": 0,
+    "insurance_duration_days": 5,
+    "extras": 0,
+    "discount_amount": 0,
+    "total": 550.0,
+    "total_before_lock": 550.0,
+    "seen_adult_price": "550.0",
+    "departs": {
+      "departure": "2023-07-14T06:00:00",
+      "arrival": "2023-07-14T17:00:00",
+      "duration": 660,
+      "pricing": {
+        "amount": "474.14",
+        "taxes": "75.86",
+        "service_fees": "0.0",
+        "provider_discount": "0.0",
+        "provider_discount_reason": "compra anticipada",
+        "provider_discount_percent": null,
+        "total": "550.0"
+      },
+      "trip_slug": "mexn_gdlj_14jul230600_01198991_18",
+      "one_way_purchases": [
+        {
+          "id": 14259,
+          "state": "completed",
+          "trip_slug": "mexn_gdlj_14jul230600_01198991_18",
+          "transporter_key": "5226",
+          "trip": {
+            "id": "mexn_gdlj_14jul230600_01198991_18",
+            "origin_id": "t-ciudad-de-mexico-central-norte",
+            "destination_id": "t-guadalajara-central-nueva",
+            "origin_code": "MEXN",
+            "destination_code": "GDLJ",
+            "pricing": {
+              "amount": 948.28,
+              "taxes": 151.72,
+              "discount_type": "early_trip_discount",
+              "total_base": 550.0,
+              "discount_base": 550.0,
+              "total": 550.0,
+              "discount_availability": 10,
+              "provider_discount": {
+                "amount": 550.0
+              },
+              "total_before_discount": 1100.0,
+              "provider_discounts": [
+                {
+                  "id": "mexn_gdlj_14jul230600_01198991_18_272130",
+                  "name": "early_trip_discount",
+                  "priority": 0,
+                  "availability": 10,
+                  "amount": 948.28,
+                  "taxes": 151.72,
+                  "total": 550.0
+                }
+              ],
+              "meta": null,
+              "wallet_points": 21154
+            },
+            "round_trip_pricing": {
+              "amount": 948.28,
+              "taxes": 151.72,
+              "total_base": 550.0,
+              "discount_base": 550.0,
+              "total": 550.0,
+              "discount_type": "early_trip_discount",
+              "discount_availability": 10,
+              "provider_discount": {
+                "amount": 550.0
+              },
+              "total_before_discount": 1100.0,
+              "provider_discounts": [
+                {
+                  "id": "mexn_gdlj_14jul230600_01198991_18_272266",
+                  "name": "single_on_round_trip_discount",
+                  "priority": null,
+                  "availability": 37,
+                  "amount":948.28,
+                  "taxes": 151.72,
+                  "total": 935.0
+                },
+                {
+                  "id": "mexn_gdlj_14jul230600_01198991_18_272130",
+                  "name": "early_trip_discount",
+                  "priority": 0,
+                  "availability": 10,
+                  "amount": 948.28,
+                  "taxes": 151.72,
+                  "total": 550.0
+                }
+              ],
+              "meta": null,
+              "wallet_points": 21154
+            },
+            "departure": "2023-07-14T06:00:00",
+            "arrival": "2023-07-14T17:00:00",
+            "availability": 37,
+            "capacity": 38,
+            "service": "lujo",
+            "line_id": "etn-lujo",
+            "stops": 1,
+            "passenger_types": [
+              {
+                "type": "general",
+                "availability": 37,
+                "total": 550.0,
+                "priority": 1
+              },
+              {
+                "type": "minor",
+                "availability": 4,
+                "total": "550.0",
+                "priority": 2
+              },
+              {
+                "type": "older",
+                "availability": 4,
+                "total": "550.0",
+                "priority": 3
+              },
+              {
+                "type": "student",
+                "availability": 3,
+                "total": "550.0",
+                "priority": 4
+              },
+              {
+                "type": "teacher",
+                "availability": 2,
+                "total": "825.0",
+                "priority": 5
+              },
+              {
+                "type": "wheelchair_handicap",
+                "availability": 8,
+                "total": "550.0",
+                "priority": 7
+              },
+              {
+                "type": "pet_friendly",
+                "availability": 0,
+                "total": "825.0",
+                "priority": 8
+              }
+            ],
+            "travel_agency": "Grupo Etn-Turistar",
+            "travel_agency_type": "Reserbus",
+            "process_type": "automatic",
+            "is_buyable": true,
+            "product_id": "ciudad-de-mexico_guadalajara",
+            "transport_type": "bus",
+            "duration": 660,
+            "path": [
+              {
+                "schedule": null,
+                "provider": "etn-lujo",
+                "origin": "MEXICO NORTE",
+                "destination": "GUADALAJARA",
+                "departure": "2023-07-14T06:00:00.000-06:00",
+                "arrival": "2023-07-14T17:00:00.000-06:00",
+                "stops": [
+                  {
+                    "terminal": "CUERNAVACA",
+                    "departure": "2023-07-14T08:00:00.000-06:00",
+                    "arrival": "2023-07-14T08:00:00.000-06:00"
+                  }
+                ]
+              }
+            ],
+            "has_route_details": false,
+            "variable_departure_time": true,
+            "open_ticket": false,
+            "on_demand": false,
+            "on_demand_caption": null,
+            "on_demand_legal": null,
+            "on_demand_seats": null,
+            "support_woman": false,
+            "is_pet_friendly": false,
+            "second_floor": true,
+            "departure_round_trip_pricing": {
+              "amount": 948.28,
+              "taxes": 151.72,
+              "total_base": 550.0,
+              "discount_base": 550.0,
+              "total": 550.0,
+              "discount_type": "early_trip_discount",
+              "discount_availability": 10,
+              "provider_discount": {
+                "amount": 550.0
+              },
+              "total_before_discount": 1100.0,
+              "provider_discounts": [
+                {
+                  "id": "mexn_gdlj_14jul230600_01198991_18_272265",
+                  "name": "departure_on_round_trip_discount",
+                  "priority": null,
+                  "availability": 37,
+                  "amount": 948.28,
+                  "taxes": 151.72,
+                  "total":990.0
+                },
+                {
+                  "id": "mexn_gdlj_14jul230600_01198991_18_272130",
+                  "name": "early_trip_discount",
+                  "priority": 0,
+                  "availability": 10,
+                  "amount": 948.28,
+                  "taxes": 151.72,
+                  "total": 550.0
+                }
+              ],
+              "meta": null,
+              "wallet_points": 21154
+            },
+            "allows_seat_selection": true,
+            "redirect_to": null,
+            "company_code": "TLA",
+            "available_wallets": [],
+            "connection_ids": []
+          },
+          "prices": [
+            {
+              "price": "474.14",
+              "taxes": "75.86",
+              "total": "550.0",
+              "category": "student"
+            },
+            {
+              "price": "474.14",
+              "taxes": "75.86",
+              "total": "550.0",
+              "category": "older"
+            },
+            {
+              "price": "474.14",
+              "taxes": "75.86",
+              "total": "550.0",
+              "category": "minor"
+            },
+            {
+              "price": "711.21",
+              "taxes": "113.79",
+              "total": "825.0",
+              "category": "teacher"
+            },
+            {
+              "price": "474.14",
+              "taxes": "75.86",
+              "total": "550.0",
+              "category": "wheelchair_handicap"
+            },
+            {
+              "price": "711.21",
+              "taxes": "113.79",
+              "total":"825.0",
+              "category": "pet_friendly"
+            },
+            {
+              "price": "948.28",
+              "taxes": "151.72",
+              "total": "1100.0",
+              "category": "general"
+            }
+          ],
+          "amount": "474.14",
+          "taxes": "75.86",
+          "service_fees": "0.0",
+          "provider_discount": "0.0",
+          "total": "550.0",
+          "ticket_pdf_url": "https://etn-sandbox.s3.amazonaws.com/tickets/BDCxQxsKSZ8/14259/generate_tickets.pdf",
+          "discounts": [
+            {
+              "id": 272130,
+              "name": "early_trip_discount",
+              "amount": "462.0",
+              "taxes": "88.0",
+              "total": "550.0",
+              "category_id": 1203094,
+              "created_at": null,
+              "updated_at": null,
+              "availability": 10,
+              "priority": 0,
+              "meta": null
+            }
+          ],
+          "tickets": [
+            {
+              "id": 12631,
+              "state": "payed",
+              "first_name": "Jose",
+              "last_name": "hernandez",
+              "gender": "m",
+              "category": "older",
+              "seat": "33",
+              "amount": "474.14",
+              "taxes": "75.86",
+              "service_fee": "0.0",
+              "total": "550.0",
+              "ssrs": [],
+              "passenger_id": 11004,
+              "service_total": "550.0",
+              "on_demand": false,
+              "discount_amount": 0.0,
+              "discount_type": null,
+              "subtotal": "474.14"
+            }
+          ],
+          "markup_rule": null
+        }
+      ]
+    },
+    "discount": null
+  },
+  "terminals": {
+    "t-ciudad-de-mexico-central-norte": {
+      "id": "t-ciudad-de-mexico-central-norte",
+      "name": "MEXICO NORTE",
+      "city_id": "ciudad-de-mexico",
+      "city_name": "Ciudad de México",
+      "coordinates": {
+        "lat": 19.4794829,
+        "long": -99.13953300000003
+      },
+      "state_name": "Distrito Federal",
+      "code": "MEXN"
+    },
+    "t-guadalajara-central-nueva": {
+      "id": "t-guadalajara-central-nueva",
+      "name": "GUADALAJARA",
+      "city_id": "guadalajara",
+      "city_name": "Guadalajara",
+      "coordinates": {
+        "lat": 20.6223746,
+        "long": -103.28510729999999
+      },
+      "state_name": "Jalisco",
+      "code": "GDLJ"
+    }
+  },
+  "lines": {
+    "etn-lujo": {
+      "name": "Etn",
+      "abbr": "etn-lujo",
+      "human_abbr": "Etn Lujo",
+      "transporter_name": "Grupo Etn-Turistar",
+      "allows_seat_selection": true,
+      "volatile_pricing": false,
+      "average_ratings": 0.0,
+      "last_ratings": [],
+      "total_ratings": 0,
+      "services": ["bathroom", "tv","wifi","eticket"],
+      "service_type": "executive",
+      "logo_url": "https://etn-sandbox.s3.amazonaws.com/uploads/line/logo/18/logo-etn.png",
+      "copyright_protected": false,
+      "ally": true,
+      "ticket_counter_exchange": false,
+      "redirection_info": null,
+      "commission_estimate": "5.0",
+      "importance": 0,
+      "open_ticket_logos_urls": []
+    }
+  },
+  "cities": {
+    "ciudad-de-mexico": {
+      "id": "ciudad-de-mexico",
+      "name": "Ciudad de México",
+      "state": "Distrito Federal",
+      "state_abbr": "DF",
+      "country": "México",
+      "country_abbr": "mx"
+    },
+    "guadalajara": {
+      "id": "guadalajara",
+      "name": "Guadalajara",
+      "state": "Jalisco",
+      "state_abbr": "Jal",
+      "country": "México",
+      "country_abbr": "mx"
+    }
+  }
+}
